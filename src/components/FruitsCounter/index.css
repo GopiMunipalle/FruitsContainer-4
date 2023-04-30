@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+* {
+  border: 0px;
+}
+@media screen and (min-width: 768px) and (max-width: 2200px) {
+  .bg-container {
+    background-color: #ffd569;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .fruits-container {
+    display: flex;
+  }
+  .mango {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 150px;
+  }
+  .button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .count {
+    color: #ffd569;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-color: #ffd569;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .mango {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 150px;
+  }
+  .button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .count {
+    color: #ffd569;
+  }
+}
